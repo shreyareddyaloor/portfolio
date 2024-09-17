@@ -1,0 +1,178 @@
+/* General */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 2rem;
+}
+
+.nav-links a {
+  color: #333;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+/* Profile Section */
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f2f5;
+}
+
+#profile img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.section__text h1 {
+  font-size: 2.8rem;
+  color: #000;
+}
+
+#socials-container .social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+#socials-container .social-icon:hover {
+  transform: scale(1.2);
+}
+
+/* About Section */
+#about {
+  padding: 8% 5%;
+  background-color: #fff;
+}
+
+.about-details-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0 5%;
+}
+
+.details-container {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.details-container:hover {
+  transform: translateY(-10px);
+}
+
+/* Projects Section */
+#projects {
+  padding: 8% 5%;
+  background-color: #f0f2f5;
+}
+
+.project-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.project-img {
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-img {
+  transform: scale(1.05);
+}
+
+/* Resume Section */
+#resume {
+  padding: 8% 5%;
+  text-align: center;
+}
+
+.resume-link {
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #000;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-link:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Contact Section */
+#contact {
+  padding: 8% 5%;
+  text-align: center;
+}
+
+.contact-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  padding: 2rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
